@@ -1,0 +1,94 @@
+/* CATEGORÍAS Y FAVORITOS */
+
+.categoria-volver {
+    display: inline-block;
+    margin-bottom: 15px;
+    color: #2563eb;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.categoria-volver:hover {
+    text-decoration: underline;
+}
+
+.categoria-descripcion {
+    margin: -15px 0 25px;
+    color: #666;
+}
+
+.categoria-vacia p {
+    margin-bottom: 20px;
+    color: #666;
+}
+
+.btn-categoria {
+    display: inline-block;
+    padding: 12px 22px;
+    border-radius: 8px;
+    background: #2563eb;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn-categoria:hover {
+    background: #1d4ed8;
+}
+
+/* Los productos no son enlaces: se anula el cursor de mano de .card */
+.card.producto {
+    cursor: default;
+}
+
+.form-favorito {
+    padding: 0 15px 15px;
+}
+
+.btn-favorito {
+    width: 100%;
+    padding: 9px 12px;
+    border: 1px solid #d1d5db;
+    border-radius: 8px;
+    background: #fff;
+    color: #374151;
+    font-size: 14px;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.btn-favorito:hover {
+    border-color: #e11d48;
+    color: #e11d48;
+}
+
+.btn-favorito.activo {
+    border-color: #e11d48;
+    background: #fff1f2;
+    color: #be123c;
+}
+
+body.modo-oscuro .categoria-volver {
+    color: #8ab4ff;
+}
+
+body.modo-oscuro .categoria-descripcion,
+body.modo-oscuro .categoria-vacia p {
+    color: #c4c4c4;
+}
+
+body.modo-oscuro .btn-categoria {
+    color: #fff;
+}
+
+body.modo-oscuro .btn-favorito {
+    background: #2a2a2a;
+    border-color: #555;
+    color: #eee;
+}
+
+body.modo-oscuro .btn-favorito.activo {
+    background: #3b1e28;
+    border-color: #f472b6;
+    color: #f9a8d4;
+}

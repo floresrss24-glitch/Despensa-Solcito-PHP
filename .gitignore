@@ -1,0 +1,14 @@
+# Variables de entorno con datos reales
+.env
+.env.local
+
+# Archivos del sistema y del editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Datos generados por la aplicación (usuarios, mensajes, pedidos, comprobantes)
+storage/*
+!storage/.htaccess
+!storage/.gitkeep
