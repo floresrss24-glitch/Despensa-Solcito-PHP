@@ -13,7 +13,7 @@ Esta versión es la **evolución del sitio estático del Hito 1**. En el **Traba
 
 ## Prototipo en Figma
 
-> 🔗 **Pegar aquí el enlace público del diseño:** `https://www.figma.com/design/4sGFbee4u1im6XKZ4a3s72/DESPENSA-SOLCITO?node-id=0-1&t=fGJ0qJpFmYcpDmtP-1`
+[Ver diseño original en Figma](https://www.figma.com/design/4sGFbee4u1im6XKZ4a3s72/DESPENSA-SOLCITO?node-id=0-1&t=fGJ0qJpFmYcpDmtP-1)
 
 ## Tecnologías utilizadas
 
@@ -103,7 +103,7 @@ Medidas de seguridad aplicadas: token CSRF en cada formulario, escape de todo lo
    - XAMPP: `C:\xampp\htdocs\`
    - Laragon: `C:\laragon\www\`
    ```bash
-   git clone https://github.com/<usuario>/Despensa-Solcito-v2.git
+   git clone https://github.com/floresrss24-glitch/Despensa-Solcito-PHP.git
    ```
 3. Crear el archivo de variables de entorno a partir de la plantilla:
    ```bash
@@ -111,7 +111,7 @@ Medidas de seguridad aplicadas: token CSRF en cada formulario, escape de todo lo
    ```
    y completar los valores (`APP_NAME`, `APP_EMAIL`, `APP_ENV`). La carpeta `storage/` se llena sola cuando se usan los formularios.
 4. Iniciar **Apache** desde el panel de XAMPP o Laragon.
-5. Abrir en el navegador: `http://localhost/Despensa-Solcito-v2/`
+5. Abrir en el navegador: `http://localhost/Despensa-Solcito-PHP/`
 
 ## Variables de entorno
 
@@ -139,5 +139,6 @@ El archivo `.env` está en `.gitignore`; en el repositorio solo se sube `.env.ex
 
 ## Flujo de trabajo con Git
 
-- Rama de trabajo: `feature/migracion-php-ssi`, integrada a `main` mediante Pull Request.
+- Rama de trabajo: `feature/migracion-php`, integrada a `main` mediante Pull Request.
 - Commits atómicos y descriptivos (por ejemplo: `feat: extrae header, nav y footer a includes/`).
+git clone https://github.com/floresrss24-glitch/Despensa-Solcito-PHP.git
